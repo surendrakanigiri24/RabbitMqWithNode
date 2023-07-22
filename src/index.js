@@ -13,6 +13,13 @@ app.get("/", (req,res) => {
   res.status(200).send({message:" YA!, I am working. "});
 })
 
+// RabbitMQ functions 
+const rabbitSend = require('./controller/Basic Implementation/send');
+rabbitSend;
+
+const rabbitReceive = require('./controller/Basic Implementation/receiver');
+rabbitReceive;
+
 // TO handle requests
 const server = app.listen( PORT, () => {
   console.log('Server listening on port 3000');
