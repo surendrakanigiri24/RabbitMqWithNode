@@ -37,3 +37,5 @@ const rabbitSend = () => {
 }
 
 module.exports = rabbitSend();
+
+// Refered url : https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html
