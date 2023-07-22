@@ -10,3 +10,8 @@ Implementationn of RabbitMQ
 5. sudo systemctl start rabbitmq-server
 6. sudo systemctl enable rabbitmq-server
 
+
+# Learned tutorials
+https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html
+# Refernce Git link
+https://github.com/rabbitmq/rabbitmq-tutorials/blob/main/javascript-nodejs/src/emit_log.js
